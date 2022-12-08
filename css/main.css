@@ -1,13 +1,19 @@
-body{
-	background-color:#FFF;
+<body style="background-color: #55D52B">
+<p> #55D52B</p> 
+</body>
+ body{
+    background-image: url(/img/1.gif);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 3%, rgba(14,215,6,0.7231267507002801) 35%, rgba(196, 22, 80, 0.807) 95%);
     font-family: "Lato", sans-serif;
-    font-weight: 300;
+    font-weight: 400;
 	font-size:16px;
 	line-height:18px;
-	color:rgb(41, 41, 41);
+	color:rgb(179, 49, 49);
 }
+
 html {
-    background-image: url(/gach.gif);
+    background-image: url(/img/1.gif);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -22,7 +28,7 @@ p{
 }
 
 a {
-    color: #aa0a5f;
+    color: #ac0d61;
 }
 
 a, a:hover, a:focus{
@@ -47,9 +53,9 @@ strong {
 }
 
 code {
-  background-color: rgb(153, 7, 7);
+  background-color: rgb(27, 27, 27);
   border-radius: 3px;
-  color: #000;
+  color: rgb(0, 0, 0)
   font-size: 85%;
   margin: 0;
   padding: 5px 10px;
@@ -100,7 +106,7 @@ section p {
 }
 
 .syntaxhighlighter {
-    border: 1px solid #efefef;
+    border: 1px solid #000000;
     max-height: 100% !important;
     padding: 20px 0;
 }
@@ -112,7 +118,9 @@ section p {
 
 
 .left-sidebar {
-    background-color: #00D363;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgb(143, 230, 182) 0%, rgba(56,207,8,1) 70%, rgba(0,236,255,1) 100%);
+    background-color: linear-gradient(90deg, rgb(141, 224, 178) 0%, rgb(23, 71, 8) 70%, rgba(0,236,255,1) 100%);
     float: left;
     min-height: 100%;
     position: fixed;
@@ -125,7 +133,7 @@ section p {
     padding-top: 70px;
 }
 .logo h1{
-    color: #fff;
+    color: rgb(211, 60, 0);
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -136,7 +144,7 @@ section p {
 }
 
 .left-nav ul li a {
-    color: #fff;
+    color: rgb(24, 0, 163);
     display: block;
     padding: 10px 35px;
     -webkit-transition: all 0.3s ease-in 0s;
@@ -147,7 +155,8 @@ section p {
 }
 
 .left-nav ul li a:hover, .left-nav ul li .current {
-    background-color: #fff;
+    
+    background-color: rgb(94, 182, 12);
     color: #000;
 }
 
@@ -159,8 +168,8 @@ section p {
 }
 
 .content-header {
-    border-bottom: 1px solid #ddd;
-    border-top: 1px solid #ddd;
+    border-bottom: 1px solid rgb(109, 24, 24);
+    border-top: 1px solid rgb(58, 40, 40);
     margin-top: 30px;
     padding: 30px 0 35px;
     text-align: center;
@@ -186,8 +195,8 @@ section p {
 }
 
 .author {
-    border-bottom: 1px solid #ddd;
-    border-top: 1px solid #ddd;
+    border-bottom: 1px solid rgb(128, 16, 16);
+    border-top: 1px solid rgb(122, 71, 71);
     margin-top: 50px;
     padding: 30px 0;
 }
@@ -224,8 +233,8 @@ section p {
 }
 
 #twitter-feed img {
-    border: 1px solid #ddd;
-    box-shadow: 2px 3px 3px #ddd;
+    border: 1px solid rgb(226, 17, 17);
+    box-shadow: 2px 3px 3px rgb(212, 24, 24);
     height: auto;
     margin-top: 10px;
     max-width: 100%;
